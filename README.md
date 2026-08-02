@@ -42,7 +42,8 @@ This dashboard consolidates raw e-commerce transaction data into a single, decis
 
 ## 📸 Preview
 
-*(Add dashboard screenshot here)*
+<img width="1323" height="746" alt="Screenshot 2026-08-03 005953" src="https://github.com/user-attachments/assets/32e4db0f-da7b-432f-bd4d-ea369b243b1c" />
+
 
 ## 🚀 How to Use
 
