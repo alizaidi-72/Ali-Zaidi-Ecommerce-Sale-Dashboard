@@ -1,0 +1,36 @@
+# Super Store Dashboard — 15 Days Sales Forecasting (Power BI)
+
+A time-series forecasting dashboard built in Power BI to project Super Store sales 15 days into the future, using historical order data from 2019–2021.
+
+## 📊 Overview
+
+Retail businesses need to anticipate demand, not just report on it. This dashboard applies Power BI's built-in forecasting engine to historical daily sales data, generating a 15-day forward projection with a visual confidence interval — helping plan inventory, staffing, and promotions ahead of time.
+
+## 🔍 Features
+
+- **Full Historical Trend (Jan 2019 – Jan 2021)** — Line chart of daily sales across the entire dataset to establish long-term patterns and seasonality
+- **Recent Activity + Forecast View** — A zoomed-in chart (Nov 2020 – Jan 2021) showing daily sales fluctuations with a projected 15-day forecast band
+- **Interactive Date-Range Slider** — Dynamically adjust the analysis window
+- **State-Wise Sales Ranking** — Full breakdown of sales by US state, led by California ($0.34M), followed by New York, Texas, Washington, and others
+
+## 🛠️ Tech Stack
+
+- **Power BI Desktop** — dashboard design & visualization
+- **Time-Series Forecasting** — Power BI's native forecasting (exponential smoothing) applied to the sales trend line
+- **DAX** — sum/aggregation measures by order date and state
+- **Power Query** — data cleaning & date-hierarchy setup
+
+## 💡 Insights Delivered
+
+- Identified a clear upward trend in order volume heading into Q4 2020
+- Forecasted the next 15 days of sales activity with a visual confidence range for planning purposes
+- Pinpointed California, New York, and Texas as the top three revenue-generating states
+
+
+
+## 🚀 How to Use
+
+1. Clone/download the `.pbix` file
+2. Open in Power BI Desktop
+3. Refresh the data connection (or use the included sample dataset)
+4. Adjust the date slider to explore different time windows and view the updated forecast
